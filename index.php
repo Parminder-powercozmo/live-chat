@@ -56,7 +56,7 @@
 	</script>
 	</head>
 	<body>
-		<h1> Hello appleds,</h1>
+		<h1> Hello sasasasa,</h1>
 		<form name="frmChat" id="frmChat">
 			<div id="chat-box"></div>
 
