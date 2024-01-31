@@ -1,18 +1,18 @@
 [
-    {
-      "id": "github-webhook",
-      "execute-command": "/home/facefrie/public_html/live-chat/deploy.sh",
-      "command-working-directory": "/home/facefrie/public_html/live-chat",
-      "trigger-rule": {
-        "and": [
-          {
-            "match": {
-              "type": "payload",
-              "path": "$.ref",
-              "value": "refs/heads/main"
-            }
+  {
+    "id": "github-webhook",
+    "execute-command": "/home/facefrie/public_html/live-chat/deploy.sh",
+    "command-working-directory": "/home/facefrie/public_html/live-chat",
+    "trigger-rule": {
+      "and": [
+        {
+          "match": {
+            "type": "payload",
+            "path": "$.ref",
+            "value": "refs/heads/main"
           }
-        ]
-      }
+        }
+      ]
     }
-  ]
+  }
+]
