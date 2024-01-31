@@ -1,8 +1,8 @@
 [
   {
     "id": "github-webhook",
-    "execute-command": "/home/facefrie/public_html/live-chat/deploy.sh",
-    "command-working-directory": "/home/facefrie/public_html/live-chat",
+    "execute-command": "deploy.sh",
+    "command-working-directory": "live-chat",
     "trigger-rule": {
       "and": [
         {
